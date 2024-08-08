@@ -194,7 +194,7 @@
                             href: "https://telegra.ph",
                             target: "_blank"
                         }
-                    }, [this._v("Telegraph")]), this._v(" 的图片上传工具\n")])
+                    }, [this._v("Telegraph")]), this._v(" 的图片上传工具<button onclick=\"location.reload();\">点击刷新</button>")])
                 }], !1, null, "5d5649c4", null).exports),
                 h = (o(325), o(183), o(187), o(78)),
                 m = {
@@ -286,7 +286,7 @@
                 },
                 w = (o(332), {
                     head: {
-                        title: "美西螈图床"
+                        title: ""
                     },
                     components: {
                         Background: d,
@@ -399,7 +399,7 @@
                                 staticClass: "text-area"
                             }, [t.isCopy ? o("span", {
                                 staticClass: "alert-text"
-                            }, [t._v("已成功复制图片地址!")]) : o("span", [t._v("复制下面的图片地址 或者 取消重新上传")])]), t._v(" "), o("div", {
+                            }, [t._v("已成功复制图片地址!")]) : o("span", [t._v("复制下面的图片地址")])]), t._v(" "), o("div", {
                                 staticClass: "url-box"
                             }, [o("div", {
                                 directives: [{
@@ -419,11 +419,11 @@
                                     expression: "showText"
                                 }],
                                 ref: "copyTxt",
-                                staticClass: "input-sm",
                                 attrs: {
                                     readonly: "",
                                     type: "text",
-                                    id: "url-content"
+                                    id: "url-content",
+                                    style: "width: 50%;"
                                 },
                                 domProps: {
                                     value: t.showText
@@ -526,7 +526,7 @@
                         staticClass: "main"
                     }, [e("div", {
                         staticClass: "title"
-                    }, [this._v("美西螈图床")]), this._v(" "), e("Upload")], 1), this._v(" "), e("Footer")], 1)
+                    }, [this._v("")]), this._v(" "), e("Upload")], 1), this._v(" "), e("Footer")], 1)
                 }), [], !1, null, "5e6831cc", null));
             e.default = x.exports
         }

@@ -728,7 +728,7 @@
                     }, {
                         hid: "description",
                         name: "description",
-                        content: "免费图床，基于Telegraph的图片上传工具 IMG.NIPAO.COM"
+                        content: "美西螈图床"
                     }],
                     link: [{
                         rel: "icon",
