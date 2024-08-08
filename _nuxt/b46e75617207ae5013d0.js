@@ -194,7 +194,7 @@
                             href: "https://telegra.ph",
                             target: "_blank"
                         }
-                    }, [this._v("Telegraph")]), this._v(" 的图片上传工具<button onclick=\"location.reload();\">点击刷新</button>")])
+                    }, [this._v("Telegraph")]), this._v(" 的图片上传工具")])
                 }], !1, null, "5d5649c4", null).exports),
                 h = (o(325), o(183), o(187), o(78)),
                 m = {
@@ -501,7 +501,7 @@
                                 e = this._self._c || t;
                             return e("div", {
                                 staticClass: "text-area"
-                            }, [e("span", [this._v("也可直接截图并粘贴到这里")])])
+                            }, [e("span", [this._v("可以选择或直接截图并粘贴到这里以上传图片")])])
                         }, function() {
                             var t = this.$createElement,
                                 e = this._self._c || t;
