@@ -17963,12 +17963,8 @@
                             viewBox: "25 25 50 50"
                         }
                     }, [n("circle", {
-                        staticClass: "path",
+                        staticClass: "patha",
                         attrs: {
-                            cx: "50",
-                            cy: "50",
-                            r: "20",
-                            fill: "none"
                         }
                     })]), e.text ? n("p", {
                         staticClass: "el-loading-text"
@@ -18928,24 +18924,9 @@
                         attrs: {
                             viewBox: "0 0 100 100"
                         }
-                    }, [n("path", {
-                        staticClass: "el-progress-circle__track",
-                        style: e.trailPathStyle,
-                        attrs: {
-                            d: e.trackPath,
-                            stroke: "#e5e9f2",
-                            "stroke-width": e.relativeStrokeWidth,
-                            fill: "none"
+                    }, [n("patha", {
                         }
-                    }), n("path", {
-                        staticClass: "el-progress-circle__path",
-                        style: e.circlePathStyle,
-                        attrs: {
-                            d: e.trackPath,
-                            stroke: e.stroke,
-                            fill: "none",
-                            "stroke-linecap": e.strokeLinecap,
-                            "stroke-width": e.percentage ? e.relativeStrokeWidth : 0
+                    }), n("patha", {
                         }
                     })])]), e.showText && !e.textInside ? n("div", {
                         staticClass: "el-progress__text",
@@ -19117,14 +19098,8 @@
                             viewBox: "0 0 50 50"
                         }
                     }, [t("circle", {
-                        staticClass: "path",
+                        staticClass: "patha",
                         attrs: {
-                            cx: "25",
-                            cy: "25",
-                            r: "20",
-                            fill: "none",
-                            stroke: this.strokeColor,
-                            "stroke-width": this.strokeWidth
                         }
                     })])])
                 };
@@ -27808,16 +27783,9 @@
                         attrs: {
                             viewBox: "0 0 100 100"
                         }
-                    }, [n("path", {
-                        staticClass: "el-progress-circle__track",
-                        style: e.trailPathStyle,
-                        attrs: {
-                            d: e.trackPath,
-                            stroke: "#e5e9f2",
-                            "stroke-width": e.relativeStrokeWidth,
-                            fill: "none"
+                    }, [n("patha", {
                         }
-                    }), n("path", {
+                    }), n("patha", {
                         staticClass: "el-progress-circle__path",
                         style: e.circlePathStyle,
                         attrs: {
@@ -49441,7 +49409,7 @@
                             viewBox: "25 25 50 50"
                         }
                     }, [n("circle", {
-                        staticClass: "path",
+                        staticClass: "patha",
                         attrs: {
                             cx: "50",
                             cy: "50",
@@ -50406,7 +50374,7 @@
                         attrs: {
                             viewBox: "0 0 100 100"
                         }
-                    }, [n("path", {
+                    }, [n("patha", {
                         staticClass: "el-progress-circle__track",
                         style: e.trailPathStyle,
                         attrs: {
@@ -50415,7 +50383,7 @@
                             "stroke-width": e.relativeStrokeWidth,
                             fill: "none"
                         }
-                    }), n("path", {
+                    }), n("patha", {
                         staticClass: "el-progress-circle__path",
                         style: e.circlePathStyle,
                         attrs: {
@@ -50595,7 +50563,7 @@
                             viewBox: "0 0 50 50"
                         }
                     }, [t("circle", {
-                        staticClass: "path",
+                        staticClass: "patha",
                         attrs: {
                             cx: "25",
                             cy: "25",
@@ -59286,26 +59254,11 @@
                         }
                     }, [n("svg", {
                         attrs: {
-                            viewBox: "0 0 100 100"
                         }
-                    }, [n("path", {
-                        staticClass: "el-progress-circle__track",
-                        style: e.trailPathStyle,
+                    }, [n("patha", {
                         attrs: {
-                            d: e.trackPath,
-                            stroke: "#e5e9f2",
-                            "stroke-width": e.relativeStrokeWidth,
-                            fill: "none"
                         }
-                    }), n("path", {
-                        staticClass: "el-progress-circle__path",
-                        style: e.circlePathStyle,
-                        attrs: {
-                            d: e.trackPath,
-                            stroke: e.stroke,
-                            fill: "none",
-                            "stroke-linecap": e.strokeLinecap,
-                            "stroke-width": e.percentage ? e.relativeStrokeWidth : 0
+                    }), n("patha", {
                         }
                     })])]), e.showText && !e.textInside ? n("div", {
                         staticClass: "el-progress__text",
