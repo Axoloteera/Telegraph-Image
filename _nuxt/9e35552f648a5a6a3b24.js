@@ -18926,7 +18926,7 @@
                         }
                     }, [n("patha", {
                         }
-                    }), n("patha", {
+                    }), [n("patha", {
                         }
                     })])]), e.showText && !e.textInside ? n("div", {
                         staticClass: "el-progress__text",

@@ -95,7 +95,7 @@
                         this.getBingHpImage()
                     },
                     methods: {
-                        getBingHpImage: function() {
+                        getBingHpImageNM: function() {
                             var t = this;
                             r.a.post(location.origin + "/api/bing/wallpaper", {
                                 n: 5
