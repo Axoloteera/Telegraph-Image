@@ -135,7 +135,7 @@
                         e = this._self._c || t;
                     return e("div", {
                         staticClass: "header"
-                    }, [e("svg", {
+                    }, [e("svgnm", {
                         attrs: {
                             width: "22",
                             height: "22",
@@ -316,7 +316,7 @@
                                 staticClass: "svg-wrapper flex"
                             }, [o("div", {
                                 staticClass: "svg-box"
-                            }, [o("svg", {
+                            }, [o("svgnm", {
                                 staticClass: "upload-icon",
                                 attrs: {
                                     viewBox: "0 0 1024 1024",
@@ -361,7 +361,7 @@
                                 staticClass: "svg-wrapper flex"
                             }, [o("div", {
                                 staticClass: "svg-box"
-                            }, [o("svg", {
+                            }, [o("svgnm", {
                                 staticClass: "upload-icon",
                                 attrs: {
                                     viewBox: "0 0 1024 1024",
@@ -384,7 +384,7 @@
                                 staticClass: "svg-wrapper flex"
                             }, [o("div", {
                                 staticClass: "svg-box"
-                            }, [o("svg", {
+                            }, [o("svgnm", {
                                 staticClass: "upload-icon",
                                 attrs: {
                                     viewBox: "0 0 1024 1024",
@@ -440,7 +440,7 @@
                                 attrs: {
                                     "data-clipboard-target": "#url-content"
                                 }
-                            }, [o("svg", {
+                            }, [o("svgnm", {
                                 staticClass: "octicon octicon-clippy",
                                 attrs: {
                                     "aria-hidden": "true",
@@ -459,7 +459,7 @@
                                 on: {
                                     click: t.clear
                                 }
-                            }, [o("svg", {
+                            }, [o("svgnm", {
                                 attrs: {
                                     height: "26",
                                     viewBox: "0 0 1024 1024",
@@ -484,7 +484,7 @@
                                 staticClass: "svg-wrapper flex"
                             }, [o("div", {
                                 staticClass: "svg-box"
-                            }, [o("svg", {
+                            }, [o("svgnm", {
                                 staticClass: "upload-icon",
                                 attrs: {
                                     viewBox: "0 0 1024 1024",

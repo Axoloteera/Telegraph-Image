@@ -17965,7 +17965,7 @@
                         staticClass: "el-loading-spinner"
                     }, [e.spinner ? n("i", {
                         class: e.spinner
-                    }) : n("svg", {
+                    }) : n("svgnm", {
                         staticClass: "circular",
                         attrs: {
                             viewBox: "25 25 50 50"
@@ -18932,7 +18932,7 @@
                             height: e.width + "px",
                             width: e.width + "px"
                         }
-                    }, [n("svg", {
+                    }, [n("svgnm", {
                         attrs: {
                             viewBox: "0 0 100 100"
                         }
@@ -19115,7 +19115,7 @@
                         t = this._self._c || e;
                     return t("span", {
                         staticClass: "el-spinner"
-                    }, [t("svg", {
+                    }, [t("svgnm", {
                         staticClass: "el-spinner-inner",
                         style: {
                             width: this.radius / 2 + "px",
@@ -24343,7 +24343,7 @@
                                     }
                                 }, o]))
                             }));
-                            return [].concat(r, [n ? e("svg", {
+                            return [].concat(r, [n ? e("svgnm", {
                                 ref: "hoverZone",
                                 class: "el-cascader-menu__hover-zone"
                             }) : null])
@@ -27815,7 +27815,7 @@
                             height: e.width + "px",
                             width: e.width + "px"
                         }
-                    }, [n("svg", {
+                    }, [n("svgnm", {
                         attrs: {
                             viewBox: "0 0 100 100"
                         }
@@ -30223,7 +30223,7 @@
                                         }
                                     }, o]))
                                 }));
-                                return [].concat(r, [n ? e("svg", {
+                                return [].concat(r, [n ? e("svgnm", {
                                     ref: "hoverZone",
                                     class: "el-cascader-menu__hover-zone"
                                 }) : null])

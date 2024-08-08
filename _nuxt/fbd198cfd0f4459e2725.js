@@ -537,7 +537,7 @@
                     staticClass: "__nuxt-error-page"
                 }, [n("div", {
                     staticClass: "error"
-                }, [n("svg", {
+                }, [n("svgnm", {
                     attrs: {
                         xmlns: "http://www.w3.org/2000/svg",
                         width: "90",
