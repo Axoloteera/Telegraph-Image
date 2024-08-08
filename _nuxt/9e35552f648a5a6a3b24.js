@@ -24304,7 +24304,6 @@
                                         h = c.offsetHeight,
                                         f = t.offsetTop,
                                         m = f + t.offsetHeight;
-                                    o.innerHTML = '\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + f + " L" + d + " 0 V" + f + ' Z" />\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + m + " L" + d + " " + h + " V" + m + ' Z" />\n        '
                                 } else n || (this.hoverTimer = setTimeout(this.clearHoverZone, this.panel.config.hoverThreshold))
                         },
                         clearHoverZone: function() {
@@ -30182,7 +30181,6 @@
                                             h = c.offsetHeight,
                                             f = t.offsetTop,
                                             m = f + t.offsetHeight;
-                                        o.innerHTML = '\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + f + " L" + d + " 0 V" + f + ' Z" />\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + m + " L" + d + " " + h + " V" + m + ' Z" />\n        '
                                     } else n || (this.hoverTimer = setTimeout(this.clearHoverZone, this.panel.config.hoverThreshold))
                             },
                             clearHoverZone: function() {
@@ -55784,7 +55782,6 @@
                                         h = c.offsetHeight,
                                         f = t.offsetTop,
                                         m = f + t.offsetHeight;
-                                    o.innerHTML = '\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + f + " L" + d + " 0 V" + f + ' Z" />\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + m + " L" + d + " " + h + " V" + m + ' Z" />\n        '
                                 } else n || (this.hoverTimer = setTimeout(this.clearHoverZone, this.panel.config.hoverThreshold))
                         },
                         clearHoverZone: function() {
@@ -61664,7 +61661,6 @@
                                             h = c.offsetHeight,
                                             f = t.offsetTop,
                                             m = f + t.offsetHeight;
-                                        o.innerHTML = '\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + f + " L" + d + " 0 V" + f + ' Z" />\n          <path style="pointer-events: auto;" fill="transparent" d="M' + l + " " + m + " L" + d + " " + h + " V" + m + ' Z" />\n        '
                                     } else n || (this.hoverTimer = setTimeout(this.clearHoverZone, this.panel.config.hoverThreshold))
                             },
                             clearHoverZone: function() {

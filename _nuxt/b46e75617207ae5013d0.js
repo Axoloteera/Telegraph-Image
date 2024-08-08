@@ -286,7 +286,7 @@
                 },
                 w = (o(332), {
                     head: {
-                        title: "Telegraph-Image|免费图床"
+                        title: "美西螈图床"
                     },
                     components: {
                         Background: d,
@@ -526,7 +526,7 @@
                         staticClass: "main"
                     }, [e("div", {
                         staticClass: "title"
-                    }, [this._v("Telegraph-Image")]), this._v(" "), e("Upload")], 1), this._v(" "), e("Footer")], 1)
+                    }, [this._v("美西螈图床")]), this._v(" "), e("Upload")], 1), this._v(" "), e("Footer")], 1)
                 }), [], !1, null, "5e6831cc", null));
             e.default = x.exports
         }
