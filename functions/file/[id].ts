@@ -11,11 +11,9 @@ export async function onRequest(context) {  // Contents of context object
     const url = new URL(request.url);
 
     return fetch(
-        'https://telegra.ph/' + url.pathname + url.search,
+        'https://telegra.ph/' + url.pathname,
         {
-            method: request.method,
-            headers: request.headers,
-            body: request.body,
+            method: 'GET',
         }
     );
 }
